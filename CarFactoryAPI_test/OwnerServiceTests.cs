@@ -107,7 +107,7 @@ namespace CarFactoryAPI_test
 
 
         [Fact]
-        [Trait("Author", "Ali")]
+        [Trait("Author", "Mostafa")]
         [Trait("Priority", "5")]
 
 
@@ -140,7 +140,7 @@ namespace CarFactoryAPI_test
         public void BuyCar_AlreadyHaveCar_NotExist()
         {
             // Arrange
-            Car car = new Car() { Id = 11, Owner = new Owner() { Id = 11, Name = "ahmed" } };
+            Car car = new Car() { Id = 11, Owner = new Owner() { Id = 11, Name = "Manar" } };
 
             carRepoMock.Setup(cm => cm.GetCarById(10)).Returns(car);
             ownersRepoMock.Setup(om => om.GetOwnerById(It.IsAny<int>())).Returns(car.Owner);
