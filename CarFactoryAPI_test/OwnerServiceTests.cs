@@ -78,7 +78,7 @@ namespace CarFactoryAPI_test
         }
 
         [Fact(Skip ="Working on solving error")]
-        [Trait("Author","Ahmed")]
+        [Trait("Author","Manar")]
         public void BuyCar_CarWithOwner_Sold()
         {
             outputHelper.WriteLine("Test 2");
